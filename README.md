@@ -2,12 +2,16 @@
 
 ###  Installation guide
 Only a single step is required to start the application, just running the `sh start.sh` file located in the root folder, will automatically trigger the following actions: 
-1- Existing containers (if existant) will be stopped, 
-2- The database container will start,
-3- Installation and packaging of the application .jar executable,
-4- Creation of the application container image will start with the latest artifact,
 
-It is imporant to note that, before starting to use the application, the user has to wait for about ~20 seconds, as the application container will restart until the database container is ready to serve. 
+1- Existing containers (if existant) will stop, 
+
+2- The database container will start,
+
+3- Installation and packaging of the application .jar executable will begin,
+
+4- Creation of the application container image will start after copying the latest .jar artifact,
+
+***It is imporant to note that, before starting to use the application, the user has to wait for about ~20 seconds, as the application container will restart until the database container is ready to serve.*** 
 
 ### Using the application
 
